@@ -1,0 +1,13 @@
+* text=auto
+*.c text eol=crlf
+*.h text eol=crlf
+*.arxml text eol=crlf
+*.xml text eol=crlf
+*.md text eol=lf
+*.m text eol=crlf
+*.bat text eol=crlf
+*.slx binary
+*.dbc text eol=crlf
+*.dvg binary
+*.dcf binary
+*.a2l text eol=crlf

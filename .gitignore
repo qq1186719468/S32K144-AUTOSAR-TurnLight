@@ -1,0 +1,48 @@
+# IAR build and user state
+Debug/
+Release/
+settings/
+*.dep
+*.ewd
+*.ewt
+*.dcusr
+*.wsdt
+*.pbw
+*.pbd
+*.pbi
+*.dni
+*.out
+*.sim
+*.map
+
+# Generated build folders
+**/obj/
+**/lst/
+**/dep/
+**/err/
+**/log/
+**/Log/
+**/output/
+**/RteAnalyzer/
+**/RteCache/
+**/ContractPhase/
+
+# Simulink cache and generated work folders
+**/slprj/
+*.slxc
+*.autosave
+*.asv
+
+# Backups, reports and archives
+*.bak
+*.tmp
+*.log
+*.rar
+*.zip
+
+# Local editor and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
