@@ -1,6 +1,6 @@
 # TSMaster + 周立功 CAN 盒子：转向灯实物联调指南
 
-本指南针对 `S32K144_Start_new_IAR` 转向灯工程和 S32K144 V1.3 学习板。当前工程使用 FlexCAN0，外部 CAN 接口使用 J3，波特率为 500 kbit/s。
+对 `S32K144_Start_new_IAR` 转向灯工程和 S32K144  学习板。当前工程使用 FlexCAN0，外部 CAN 接口使用 J3，波特率为 500 kbit/s。
 
 ## 1. 导入哪一个 DBC
 
