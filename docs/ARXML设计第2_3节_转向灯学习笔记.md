@@ -262,8 +262,4 @@ Com、IoHwAb、Dio、Can
 7. 打开 `ECUProjects/S32K144_Start.arxml`，查看 Assembly Connector；
 8. 最后回到生成的 RTE 头文件和 C 文件，对照接口是否变成了函数和变量。
 
-## 7. 面试表达
 
-可以这样回答：
-
-> 我先在应用设计层定义数据类型和 Sender-Receiver/Client-Server 接口，再创建 TurnLight、TurnLightArb、TurnLightAct 三个 SWC，配置各自的 P/R 端口、10 ms TimingEvent、Runnable 数据访问和服务调用点，最后在 ECU Composition 中建立端口连接。工具根据这些 ARXML 生成 RTE 接口，底软 ECUC 再把通信 PDU、OS 调度和硬件资源映射到这些接口上。
